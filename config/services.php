@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'external_api' => [
+        'url' => env('EXTERNAL_API_URL', 'https://ogienurdiana.com/career/ecc694ce4e7f6e45a5a7912cde9fe131'),
+        'timeout' => env('EXTERNAL_API_TIMEOUT', 30),
+        'batch_size' => env('SYNC_BATCH_SIZE', 100),
+    ],
+
 ];
